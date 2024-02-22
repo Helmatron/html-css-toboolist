@@ -1,0 +1,40 @@
+/* reset */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* header style */
+.page-header {
+
+}
+
+.page-header .conteiner {
+    background-color: rgb(255, 255, 255);
+} 
+
+.logo {
+    height: 60px;
+}
+
+
+/* Main style */
+.page-main {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+.page-main .conteiner {
+    background-color: rgb(0, 0, 0);
+    display: block;
+    height: 100px;
+
+}
+
+
+/* Footer style */
+.page-footer {
+
+}
