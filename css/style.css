@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+ul,
+ol,
+menu {
+    list-style: none;
+}
+
+/* body style */
 body {
     background-color: rgb(244, 244, 244);
 }
@@ -27,20 +34,27 @@ body {
 
 
 /* Main style */
-
-
 main .conteiner {
     background-color: rgb(255, 255, 255);
-    display: block;
     max-width: 800px;
-    margin: 0 auto;
+    margin: auto;
+    padding: 15px;
 
 }
 
 .button {
     background-color: white;
     font-weight: 700;
-    padding: 8px;
+    padding: 5px 12px 5px 12px;
+    margin: 0px 0px 25px 0px;
+    border-radius: 8px;
+    border-color: rgb(196, 196, 196);
+}
+.button-1 {
+    background-color: rgb(100, 208, 241);
+    font-weight: 700;
+    padding: 5px 12px 5px 12px;
+    margin: 0px 0px 25px 0px;
     border-radius: 8px;
     border-color: rgb(196, 196, 196);
 }
@@ -51,18 +65,15 @@ main .conteiner {
     font-weight: 700;
 }
 
-.conteiner-list {
-    background-color: rgb(255, 255, 255);
-    display: block;
-    max-width: 60%;
-    margin: 0px 20% 50px 20%;
-    padding: 15px 30px 15px 30px;
-    border-bottom: 1px;
-
+.button-1:hover {
+    background-color: rgb(42, 125, 184);
+    color: white;
+    font-weight: 700;
 }
 
-
-/* Footer style */
-.page-footer {
+.conteiner-list {
+    background-color: rgb(255, 255, 255);
+    border: 10px;
+    border-color: black;
 
 }
