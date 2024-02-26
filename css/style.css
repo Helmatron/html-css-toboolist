@@ -16,6 +16,10 @@ body {
     background-color: rgb(244, 244, 244);
 }
 
+h2{
+    font-size: 20px;
+}
+
 /* header style */
 .page-header {
     background-color: white;
@@ -34,27 +38,32 @@ body {
 
 
 /* Main style */
-main .conteiner {
-    background-color: rgb(255, 255, 255);
-    max-width: 800px;
-    margin: auto;
-    padding: 15px;
 
+.main-style {
+    display: inline;
 }
 
+main .conteiner {
+    background-color: rgb(255, 255, 255);
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 15px 50px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+/* button style */
 .button {
     background-color: white;
-    font-weight: 700;
+    font-size: smaller;
     padding: 5px 12px 5px 12px;
-    margin: 0px 0px 25px 0px;
     border-radius: 8px;
     border-color: rgb(196, 196, 196);
 }
 .button-1 {
     background-color: rgb(100, 208, 241);
-    font-weight: 700;
+    font-size: smaller;
     padding: 5px 12px 5px 12px;
-    margin: 0px 0px 25px 0px;
     border-radius: 8px;
     border-color: rgb(196, 196, 196);
 }
@@ -62,18 +71,50 @@ main .conteiner {
 .button:hover {
     background-color: rgb(42, 125, 184);
     color: white;
-    font-weight: 700;
 }
 
 .button-1:hover {
     background-color: rgb(42, 125, 184);
     color: white;
-    font-weight: 700;
 }
 
+
+/* list style */
 .conteiner-list {
     background-color: rgb(255, 255, 255);
-    border: 10px;
-    border-color: black;
+    max-width: 1000px;
+    margin: 2px auto;
+    padding: 0px 50px 15px 50px;
+    border-radius: 0px 0px 5px 5px;
+    font-family: sans-serif;
+    
+}
 
+.list-title {
+    padding: 30px 0px 0px 6px;
+}
+
+.list-title span {
+    font-size: small;   
+}
+
+.list-content {
+    display: inline-block;
+    padding: 10px 0px 0px 0px;
+    line-height: 30px;
+    
+}
+
+.list-content span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: blue;
+    background-color: aqua;
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: center;
+    
 }
